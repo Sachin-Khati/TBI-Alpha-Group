@@ -1,0 +1,238 @@
+*{
+    margin:0px;
+}
+body{
+    background-color: rgb(235, 250, 250);
+}
+.side{
+    position:fixed;
+    left:0;
+    width:250px;
+    background-color:#222f3d;
+    height:100%;
+    border-radius: 4px;
+   
+}
+.side header{
+    font-size: 29px;
+    line-height: 60px;
+    background-color:#222f3d;
+    color:white;
+    text-align: center;
+    
+   
+}
+.side .r{
+    font-style: italic;
+}
+.side .sm{
+    font-size: 17px;
+    line-height: 50px;
+    background-color:blue;
+    color:white;
+    text-align: center;
+}
+.side ul{
+    margin-top: 10px;
+    padding-top: 20px;;
+}
+.side p{
+    color:white;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.side span{
+    color:blue;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.side ul li {
+    display:block;
+    height:100%;
+    width:100%;
+    font-size: 20px;
+    color: white;
+    padding-left: 0px;
+    line-height: 33px;
+    
+}
+hr{
+    height:2px;
+    background-color: white;
+    width: 100%;
+    margin-top:20px;
+}
+.navbar{
+    background-color:white;
+    color: black;
+    height:40px;
+    border-radius: 2px;
+    border-width: 2px;
+    box-shadow: 2px 2px 2px 2px white;
+    margin-left: 251px;
+}
+.navbar input{
+    height:30px;
+    width:350px;
+    border-radius: 5px;
+    margin-left: 30px;
+    background-color: rgb(240, 242, 242);
+    left:100px;
+}
+.navbar .write{
+    position: absolute;
+    justify-content: space-around;
+    margin-top: 5px;
+    padding-left: 40px;
+    margin-right: 10px;
+    display: flex;
+    right:0.5px;
+    top:0.5px;   
+}
+.navbar .write div {
+    margin-left: 40px;
+}
+.navbar .write .ex{
+    color: blue;
+    font-weight: 600;
+}
+.panel1{
+    background-color:white;
+    color: black;
+    height:40px;
+    border-radius: 2px;
+    border-width: 2px;
+    box-shadow: 2px 2px 2px 2px white;
+    margin-left: 280px;
+    margin-right: 20px;
+    margin-top: 20px;
+   
+}
+.panel2{
+    background-color:white;
+    color: black;
+    height:40px;
+    border-radius: 2px;
+    border-width: 2px;
+    box-shadow: 2px 2px 2px 2px white;
+    margin-left: 280px;
+    margin-right: 20px;
+    margin-top: 20px;
+} 
+.panel1 p{
+    margin-left:320px;
+}
+.panel1 img{
+    float :left;
+}
+.panel2 p{
+    margin-left:320px;
+}
+.panel2 img{
+    float :left;
+}
+.panel2 p span{
+    color:blue;
+    font-weight: 600;
+} 
+.panel3{
+    background-color:white;
+    color: black;
+    height:480px;
+    border-radius: 2px;
+    border-width: 2px;
+    box-shadow: 2px 2px 2px 2px white;
+    margin-left: 280px;
+    margin-right: 20px;
+    margin-top: 20px;
+    display: flex; 
+    align-items: center;
+}
+.panel3 .img1{
+    right: 15px;
+    position: absolute;
+  
+}
+.panel3 .img2{
+    left:10;
+    position: absolute;
+    top:180px; 
+    border-radius:10px;  
+    border-style: hidden;
+
+}
+.panel3 .t{
+    width: 250px;
+    margin-left: 30px;
+    
+}
+.panel3 .t button{
+    background-color: rgb(97, 97, 248);
+    color: azure;
+    margin-top: 15px;
+    height: 30px;
+}
+.panel3 .t p{
+    margin-top: 15px;
+    gap:19px;
+}
+.panel3 span{
+    color:blue;
+}
+.panel4{
+    background-color:white;
+    color: black;
+    height:40px;
+    border-radius: 2px;
+    border-width: 2px;
+    box-shadow: 2px 2px 2px 2px white;
+    margin-left: 280px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.panel4 p{
+    margin-left:30px;
+    padding: 10px;
+}
+.panel4 p span{
+    color:blue;
+}
+.panel5{
+    background-color:white;
+    color: black;
+    height:70px;
+    border-radius: 2px;
+    border-width: 2px;
+    box-shadow: 2px 2px 2px 2px white;
+    margin-left: 280px;
+    margin-right: 20px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.panel5 .c{
+    height:20px;
+    border: 2px solid rgb(186, 184, 184);
+    width:122px;
+    padding: 10px;
+    margin-left: 10px;
+    
+}
+.panel5 .c2{
+    height:20px;
+    border: 2px solid rgb(186, 184, 184);
+    width:215px;
+    padding: 10px;
+    
+}
+.panel5 .sp {
+    right:59px;
+    position: absolute;
+    color: blue;
+}
+.panel5 .sp2 {
+    right:172px;
+    position: absolute;
+   font-weight: 600;
+   
+}
